@@ -5,9 +5,11 @@
     padding: 0; 
    
 }
-html{
-    background-image: url(img/businesswoman-in-cafe-2-scaled.jpg);
+
+html{ 
+     background-color: black;
 }
+
 
 
 #menu-h{
@@ -60,6 +62,7 @@ html{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-image: url(img/pexels-dana-tentis-370799.jpg);
     
 }
 #heading h1{
@@ -96,4 +99,8 @@ html{
 #heading  div{
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#heading button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
