@@ -1,0 +1,39 @@
+METHODS
+
+GET 
+
+<html>
+<head>
+<title>Method</title>
+      <form action="get.php" method="get">
+       Nome:<input type="text" name="cxname">
+       <input type="submit" value="Send">
+      </form>
+</head>
+</html>
+
+<?php 
+$name = $_GET["cxname"];
+echo "Nome: ".$nome;
+?>
+
+POST
+
+<html>
+<head>
+<title>Method</title>
+      <form action="post.php" method="post">
+       Nome:<input type="text" name="cxname">
+       <input type="submit" value="Send">
+      </form>
+</head>
+</html>
+
+<?php 
+$name = $_POST["cxname"];
+echo "Nome: ".$nome;
+?>
+
+
+
+
