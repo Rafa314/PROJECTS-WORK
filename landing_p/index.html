@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        /*font-family: 'Ubuntu', sans-serif;*/
+       *{
+        padding: 0;
+        margin: 12px;
+        font-family: 'Ubuntu', sans-serif;
+       }
+       body{
+        background-image: linear-gradient(blue, orange);
+        background-repeat: no-repeat;
+       }
+       .first_part{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    
+        
+       }
+       .head_buttons{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          flex-direction: column;
+          
+       }
+       .head_buttons button{
+        border-radius: 80px;
+        border: none;
+        width: 450px;
+        height: 40px;
+        
+
+       }
+       .head_buttons button a{
+        transition: background .4s;
+        text-decoration: none;
+       }
+
+       .head_buttons button:hover{
+        border-radius: 80px;
+        border: none;
+        width: 500px;
+        height: 50px;
+        font-size: 100%;
+       }
+       .first_part img{
+          border-radius: 80px;
+          
+       }
+
+
+    </style>
+</head>
+<body>
+    <div class="first_part">
+    <img src="img/brazil-sombrio2.jpg" height="100px" width="auto" alt="influencer_img">
+    <h1>LP Modelo</h1> 
+    <p>Esse seria o teste para implementar os LP</p>
+</div>
+    <div class="head_buttons">
+        <button><a href="#" target="_blank">Assista meus tutoriais</a></button>
+        <button><a href="#" target="_blank">Compre prints do meu trabalho</a></button>
+        <button><a href="#" target="_blank">Minha lista de desejos</a></button>
+        <button><a href="#" target="_blank">Instagram</a></button>
+        <button><a href="#" target="_blank">Twitter</a></button>
+        <button><a href="#" target="_blank">Facebook</a></button>
+    </div>
+</body>
+</html>
