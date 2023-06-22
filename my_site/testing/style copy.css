@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Montserrat:ital,wght@1,200&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0; 
+    
+}
+
+
+
+body{
+    background-image: url(img/dag.jpg); 
+    height: 2000px;
+}
+
+
+
+#menu-h{
+   /* position: fixed;*/
+    background-color: rgb(41, 40, 40);
+    font-family: 'Geologica', sans-serif;
+    
+    
+}
+
+#menu-h ul{
+    max-width: 1000px;
+    list-style: none;  
+    padding: 0;
+    text-align: left;
+}
+#menu-h li{
+    display: inline;
+    
+}
+
+#menu-h li a{
+    color: #fff;
+    padding: 20px;
+    border: 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+   
+}
+
+#menu-h li img{
+    padding: 20px;
+    border: 0;
+    display: inline-block;   
+}
+#menu-h li a:hover{
+    background-color:rgb(7, 199, 241);
+    
+}
+
+#menu-h ul li:last-child a{
+    width: 150px;
+    height: auto;
+    background-color: #0ca9e7;
+    text-align: center;
+    border-radius: 70px;
+    float: right;
+}
+
+#menu-h ul li:last-child a:hover{
+    background-color: #fff;
+    color: #0ca9e7;
+    width: 100px;
+    height: auto;
+    
+}
+
+#menu-h ul li img{
+   float: left; 
+}
+
+
+
+.container{
+    display: flex;
+}
+
+.container h1{
+   color: #fff;
+   text-align: center; 
+   flex-wrap: wrap; 
+}
